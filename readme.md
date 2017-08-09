@@ -8,7 +8,16 @@ child pom.
 
 ### Releases
 
-#### 1.0.5-5
+#### 1.0.9-1
+
+* Upgrading Dropwizard to 1.0.9
+* Improved testing to detect missing dependencies
+
+#### 1.0.5-7
+
+* Upgraded parent POM, `com.mainstreethub:ecs-parent-pom`, to 1.3.2
+
+#### 1.0.5-6
 
 * Upgraded parent POM, `com.mainstreethub:ecs-parent-pom`, to 1.3.1
 
