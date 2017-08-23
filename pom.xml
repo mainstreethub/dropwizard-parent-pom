@@ -12,6 +12,13 @@
   <version>1.0.9-1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <scm>
+    <url>https://github.com/mainstreethub/dropwizard-parent-pom</url>
+    <connection>scm:git:git@github.com:mainstreethub/dropwizard-parent-pom</connection>
+    <developerConnection>scm:git:git@github.com:mainstreethub/dropwizard-parent-pom</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
   <properties>
     <dropwizard.version>1.0.9</dropwizard.version>
 
