@@ -42,15 +42,12 @@
     <dropwizard.api.key.bundle.version>1.0.0</dropwizard.api.key.bundle.version>
     <dropwizard.configurable.assets.bundle.version>1.0.5</dropwizard.configurable.assets.bundle.version>
     <dropwizard.json.log.bundle.version>1.0.2-0</dropwizard.json.log.bundle.version>
-    <dropwizard.metrics.datadog.ecs.version>0.4.0</dropwizard.metrics.datadog.ecs.version>
     <dropwizard.redirect.bundle.version>1.0.5</dropwizard.redirect.bundle.version>
     <dropwizard.template.config.version>1.5.0</dropwizard.template.config.version>
     <dropwizard.version.bundle.version>1.0.0</dropwizard.version.bundle.version>
     <dropwizard.webjars.bundle.version>1.0.0</dropwizard.webjars.bundle.version>
 
-    <mainstreethub.dropwizard.config.testing.version>0.1.0</mainstreethub.dropwizard.config.testing.version>
-    <mainstreethub.environment.version>0.3.0</mainstreethub.environment.version>
-    <mainstreethub.time.version>0.2.0</mainstreethub.time.version>
+    <mainstreethub.java-commons.version>1.1.4-1</mainstreethub.java-commons.version>
   </properties>
 
   <build>
@@ -168,22 +165,22 @@
       <dependency>
         <groupId>com.mainstreethub</groupId>
         <artifactId>dropwizard-config-testing</artifactId>
-        <version>${mainstreethub.dropwizard.config.testing.version}</version>
+        <version>${mainstreethub.java-commons.version}</version>
       </dependency>
       <dependency>
         <groupId>com.mainstreethub</groupId>
         <artifactId>dropwizard-metrics-datadog-ecs</artifactId>
-        <version>${dropwizard.metrics.datadog.ecs.version}</version>
+        <version>${mainstreethub.java-commons.version}</version>
       </dependency>
       <dependency>
         <groupId>com.mainstreethub</groupId>
         <artifactId>environment</artifactId>
-        <version>${mainstreethub.environment.version}</version>
+        <version>${mainstreethub.java-commons.version}</version>
       </dependency>
       <dependency>
         <groupId>com.mainstreethub</groupId>
         <artifactId>time</artifactId>
-        <version>${mainstreethub.time.version}</version>
+        <version>${mainstreethub.java-commons.version}</version>
       </dependency>
 
       <!-- 3rd-party bundles to use with Dropwizard. -->
