@@ -39,12 +39,12 @@
       idea is that in the absence of bug fixes these dependencies should only ever change
       versions when we upgrade to a newer version of dropwizard.
     -->
-    <dropwizard.api.key.bundle.version>1.0.0</dropwizard.api.key.bundle.version>
-    <dropwizard.configurable.assets.bundle.version>1.0.5</dropwizard.configurable.assets.bundle.version>
-    <dropwizard.json.log.bundle.version>1.0.2-0</dropwizard.json.log.bundle.version>
+    <dropwizard.api.key.bundle.version>1.1.4-1</dropwizard.api.key.bundle.version>
+    <dropwizard.configurable.assets.bundle.version>1.1.4</dropwizard.configurable.assets.bundle.version>
+    <dropwizard.json.log.bundle.version>1.1.4-1</dropwizard.json.log.bundle.version>
     <dropwizard.redirect.bundle.version>1.0.5</dropwizard.redirect.bundle.version>
     <dropwizard.template.config.version>1.5.0</dropwizard.template.config.version>
-    <dropwizard.version.bundle.version>1.0.0</dropwizard.version.bundle.version>
+    <dropwizard.version.bundle.version>1.1.4</dropwizard.version.bundle.version>
     <dropwizard.webjars.bundle.version>1.0.0</dropwizard.webjars.bundle.version>
 
     <mainstreethub.java-commons.version>1.1.4-1</mainstreethub.java-commons.version>
