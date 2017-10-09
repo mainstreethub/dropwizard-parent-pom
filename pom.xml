@@ -45,7 +45,7 @@
     <dropwizard.redirect.bundle.version>1.1.4</dropwizard.redirect.bundle.version>
     <dropwizard.template.config.version>1.5.0</dropwizard.template.config.version>
     <dropwizard.version.bundle.version>1.1.4</dropwizard.version.bundle.version>
-    <dropwizard.webjars.bundle.version>1.0.0</dropwizard.webjars.bundle.version>
+    <dropwizard.webjars.bundle.version>1.1.4</dropwizard.webjars.bundle.version>
 
     <mainstreethub.java-commons.version>1.1.4-1</mainstreethub.java-commons.version>
   </properties>
