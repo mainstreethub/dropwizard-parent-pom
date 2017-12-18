@@ -47,7 +47,7 @@
     <dropwizard.version.bundle.version>1.1.4</dropwizard.version.bundle.version>
     <dropwizard.webjars.bundle.version>1.1.4</dropwizard.webjars.bundle.version>
 
-    <mainstreethub.java-commons.version>1.1.4-1</mainstreethub.java-commons.version>
+    <mainstreethub.java-commons.version>1.1.4-3</mainstreethub.java-commons.version>
   </properties>
 
   <build>

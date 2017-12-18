@@ -8,6 +8,15 @@ child pom.
 
 ### Releases
 
+#### 1.1.4-2
+
+* Updating java-commons to 1.1.4-3. Includes a fix to include environment when forwarding metrics to Datadog.
+
+
+#### 1.1.4-1
+
+* Upgrading to Dropwizard 1.1.4
+
 #### 1.0.9-1
 
 * Upgrading Dropwizard to 1.0.9
