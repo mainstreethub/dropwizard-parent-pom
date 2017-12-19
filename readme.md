@@ -8,6 +8,11 @@ child pom.
 
 ### Releases
 
+#### 1.1.4-3
+
+* Updating java-commons to 1.1.4-4. Includes a fix to handle Datadog metric overrides.
+
+
 #### 1.1.4-2
 
 * Updating java-commons to 1.1.4-3. Includes a fix to include environment when forwarding metrics to Datadog.
