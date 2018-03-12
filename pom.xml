@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.mainstreethub</groupId>
     <artifactId>ecs-parent-pom</artifactId>
-    <version>1.3.5</version>
+    <version>1.3.6</version>
   </parent>
 
   <artifactId>dropwizard-parent-pom</artifactId>
@@ -47,7 +47,7 @@
     <dropwizard.version.bundle.version>1.1.4</dropwizard.version.bundle.version>
     <dropwizard.webjars.bundle.version>1.1.4</dropwizard.webjars.bundle.version>
 
-    <mainstreethub.java-commons.version>1.1.4-4</mainstreethub.java-commons.version>
+    <mainstreethub.java-commons.version>1.1.4-11</mainstreethub.java-commons.version>
   </properties>
 
   <build>
