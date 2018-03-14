@@ -88,7 +88,6 @@
       </plugins>
     </pluginManagement>
     <plugins>
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
@@ -227,4 +226,39 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <!--
+    Guava 21.0 has a flaw in it's pom.xml that requires an internal-only
+    dependency to be visible in all users of Guava 21.0 to prevent warnings
+    from being emitted by the annotation process.  If you're running with
+    -Werror (which most of our projects are) then without this your build will
+    start failing with errors like this:
+
+      [WARNING] Cannot find annotation method 'value()' in type
+      'com.google.errorprone.annotations.CompatibleWith': class file for
+      com.google.errorprone.annotations.CompatibleWith not found
+
+    To prevent this from happening, we're going to apply the "fix" in the
+    parent pom so that users don't have to worry about it.  This means we have
+    to inject a dependency into every user of this parent pom which is why
+    we're doing this in a dependencies section and not the above
+    dependencyManagement section.  Fortunately, for this dependency it only
+    needs to be present in the classpath at compile time, not runtime, so we'll
+    mark it with a provided scope to prevent maven from including it in our
+    uber jars.
+
+    Once we upgrade to a version of Dropwizard that doesn't depend on
+    Guava 21.0 this block of code can be removed.  To facilitate removing it
+    easily we're not going to create a property for it's version.
+
+    Reference: https://github.com/google/guava/issues/2721
+  -->
+  <dependencies>
+    <dependency>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+      <version>2.0.15</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>
