@@ -8,6 +8,12 @@ child pom.
 
 ### Releases
 
+#### 1.1.4-7
+* Reduce restrictions on log4j dependency exclusions to allow for usage of log4j-to-slf4j.
+
+#### 1.1.4-6
+* Add error-prone compile-time dependency. Required by Google Guava version 21.
+
 #### 1.1.4-5
 * Upgraded parent POM, `com.mainstreethub:ecs-parent-pom`, to 1.3.6
 * Upgraded `com.mainstreethub:java-commons`, to 1.1.4-11
