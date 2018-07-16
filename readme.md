@@ -8,6 +8,10 @@ child pom.
 
 ### Releases
 
+#### 1.3.5-1
+* Upgraded Dropwizard to 1.3.5
+* Upgraded parent POM, `com.mainstreethub:ecs-parent-pom`, to 1.4.0
+
 #### 1.1.4-5
 * Upgraded parent POM, `com.mainstreethub:ecs-parent-pom`, to 1.3.6
 * Upgraded `com.mainstreethub:java-commons`, to 1.1.4-11
@@ -20,7 +24,6 @@ child pom.
 
 #### 1.1.4-2
 * Updating java-commons to 1.1.4-3. Includes a fix to include environment when forwarding metrics to Datadog.
-
 
 #### 1.1.4-1
 * Upgrading to Dropwizard 1.1.4
