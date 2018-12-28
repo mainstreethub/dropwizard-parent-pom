@@ -8,6 +8,10 @@ child pom.
 
 ### Releases
 
+#### 1.3.5-2
+* Add Kotlin parent pom
+* Upgrade java-commons to 1.3.5-5, utilize the java-commons BOM
+
 #### 1.3.5-1
 * Upgraded Dropwizard to 1.3.5
 * Upgraded parent POM, `com.mainstreethub:ecs-parent-pom`, to 1.4.0
