@@ -8,6 +8,9 @@ child pom.
 
 ### Releases
 
+#### 1.3.5-3
+* Fix warnings when using kotlin parent-pom
+
 #### 1.3.5-2
 * Add Kotlin parent pom
 * Upgrade java-commons to 1.3.5-5, utilize the java-commons BOM
