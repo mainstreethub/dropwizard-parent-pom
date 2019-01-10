@@ -178,23 +178,16 @@
             <version>${klint-maven-plugin.version}</version>
             <executions>
               <execution>
-                <id>format</id>
-                <goals>
-                  <goal>format</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-          <plugin>
-            <groupId>com.github.gantsign.maven</groupId>
-            <artifactId>ktlint-maven-plugin</artifactId>
-            <version>${klint-maven-plugin.version}</version>
-            <executions>
-              <execution>
                 <id>check</id>
                 <phase>verify</phase>
                 <goals>
                   <goal>check</goal>
+                </goals>
+              </execution>
+              <execution>
+                <id>format</id>
+                <goals>
+                  <goal>format</goal>
                 </goals>
               </execution>
             </executions>
