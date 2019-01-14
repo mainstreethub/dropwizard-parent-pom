@@ -8,6 +8,9 @@ child pom.
 
 ### Releases
 
+#### 1.3.5-4
+* Remove ktlint format so it is not executed
+
 #### 1.3.5-3
 * Fix warnings when using kotlin parent-pom
 
