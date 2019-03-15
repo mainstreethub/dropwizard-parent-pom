@@ -50,11 +50,36 @@
     <dropwizard.webjars.bundle.version>1.3.5</dropwizard.webjars.bundle.version>
 
     <mainstreethub.java-commons.version>1.3.5-5</mainstreethub.java-commons.version>
+
+    <maven.failsafe.plugin.version>2.22.1</maven.failsafe.plugin.version>
+    <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
   </properties>
 
   <build>
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven.surefire.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-failsafe-plugin</artifactId>
+          <version>${maven.failsafe.plugin.version}</version>
+          <configuration>
+            <classpathDependencyScopeExclude>compile</classpathDependencyScopeExclude>
+          </configuration>
+
+          <executions>
+            <execution>
+              <goals>
+                <goal>integration-test</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+
         <plugin>
           <groupId>io.fabric8</groupId>
           <artifactId>docker-maven-plugin</artifactId>
