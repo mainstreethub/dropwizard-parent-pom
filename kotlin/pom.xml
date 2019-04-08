@@ -15,11 +15,11 @@
   <properties>
     <jdbi.version>3.2.1</jdbi.version>
 
-    <klint-maven-plugin.version>0.9.21</klint-maven-plugin.version>
+    <klint-maven-plugin.version>0.9.24</klint-maven-plugin.version>
 
     <kotlin.version>1.3.21</kotlin.version>
     <kotlin-coroutine.version>1.1.1</kotlin-coroutine.version>
-    <kotlin-logging.version>1.6.24</kotlin-logging.version>
+    <kotlin-logging.version>1.6.26</kotlin-logging.version>
   </properties>
 
   <build>

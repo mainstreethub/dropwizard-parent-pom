@@ -8,6 +8,15 @@ child pom.
 
 ### Releases
 
+#### 1.3.5-6
+* Upgrade to Kotlin 1.3.21
+* Upgrade to kotlin-maven-plugin 0.9.24
+* Upgrade to kotlin-logging 1.6.26
+* Upgrade to java-commons 1.3.5-8
+
+#### 1.3.5-5
+* Migrate to GoDaddy slack for build notifications
+
 #### 1.3.5-4
 * Remove ktlint format so it is not executed
 
