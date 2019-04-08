@@ -13,6 +13,7 @@ child pom.
 * Upgrade to kotlin-maven-plugin 0.9.24
 * Upgrade to kotlin-logging 1.6.26
 * Upgrade to java-commons 1.3.5-8
+* Specify failsafe and surefire plugin versions and standard configuration (initial version 2.22.1)
 
 #### 1.3.5-5
 * Migrate to GoDaddy slack for build notifications
