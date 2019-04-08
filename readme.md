@@ -15,6 +15,8 @@ child pom.
 * Upgrade to kotlin-logging 1.6.26
 * Upgrade to java-commons 1.3.5-8
 * Specify failsafe and surefire plugin versions and standard configuration (initial version 2.22.1)
+* default-testCompile should be disable to prevent warnings from Java compiler
+* Add flag to Kotlin compiler to fail on warnings (Helps to prevent bugs around unused parameters)
 
 #### 1.3.5-5
 * Migrate to GoDaddy slack for build notifications
