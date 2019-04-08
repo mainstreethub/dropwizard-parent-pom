@@ -10,6 +10,7 @@ child pom.
 
 #### 1.3.5-6
 * Upgrade to Kotlin 1.3.21
+* Upgrade to Kotlin coroutines 1.1.1
 * Upgrade to kotlin-maven-plugin 0.9.24
 * Upgrade to kotlin-logging 1.6.26
 * Upgrade to java-commons 1.3.5-8
