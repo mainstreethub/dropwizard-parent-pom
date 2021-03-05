@@ -233,4 +233,18 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <!-- This will release artifacts to GoDaddy Artifactory-->
+  <distributionManagement>
+    <repository>
+      <id>artifactory.secureserver</id>
+      <name>Artifactory Releases</name>
+      <url>https://artifactory.secureserver.net/artifactory/maven-mainstreethub-prod-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>artifactory.secureserver</id>
+      <name>Artifactory Snapshots</name>
+      <url>https://artifactory.secureserver.net/artifactory/maven-mainstreethub-prod-local</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>

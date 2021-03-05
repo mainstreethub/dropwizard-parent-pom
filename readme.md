@@ -8,6 +8,9 @@ child pom.
 
 ### Releases
 
+#### 1.3.5-7
+* Release artifacts to GoDaddy Artifactory instead of MSH S3
+
 #### 1.3.5-6
 * Upgrade to Kotlin 1.3.21
 * Upgrade to Kotlin coroutines 1.1.1
