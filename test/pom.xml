@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.mainstreethub</groupId>
     <artifactId>parent-pom</artifactId>
-    <version>1.5.1</version>
+    <version>1.6.6</version>
     <relativePath>../../parent-pom/pom.xml</relativePath>
   </parent>
 
@@ -242,4 +242,21 @@
       <artifactId>dropwizard-json-log-bundle</artifactId>
     </dependency>
   </dependencies>
+
+  <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    <repository>
+      <id>artifactory.mirror</id>
+      <name>Artifactory Maven Central Mirror</name>
+      <url>https://artifactory.secureserver.net/artifactory/java-virt</url>
+    </repository>
+    <repository>
+      <id>maven-s3-release-repo</id>
+      <name>S3 Release Repository</name>
+      <url>s3://artifacts.mainstreethub.com/maven/releases</url>
+    </repository>
+  </repositories>
 </project>
